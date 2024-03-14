@@ -53,6 +53,20 @@ Las listas ordenadas necesitan un numero y un punto seguido de un espacio y la p
 
 Para las lineas sin orden, un guión y un espacio.
 
+#### Anidadas
+
+Las listas anidadas son listas dentro de listas
+
+1. Esto es el primer elemento
+2. Esto es el segundo
+	1. Esto es el elemento 2.1.
+	2. Esto es el 2.2.
+3. Esto es el tercer elemento
+	- Esto es una lista sin orden...
+	- ... dentro de una lista con orden
+
+Para meter una lista dentro de otra, utilizamos la tabulación.
+
 
 
 
