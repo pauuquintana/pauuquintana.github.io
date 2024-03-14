@@ -72,11 +72,13 @@ Para meter una lista dentro de otra, utilizamos la tabulación.
 
 Para añadir imagenes, hemos de dar una descripción y el nombre de la imagen (con la ruta, si hiciera falta).
 
-![Let me do it for you meme] (meme.jpg)
+![Let me do it for you meme](meme.jpg)
 
 La sintaxis es: exclamación seguido de una descripción dentro de las llaves anguladas, seguido de el nombre de la imagen entre paréntesis (sin espacios entre exclamación, llaves anguladas y paréntesis)..
 
+### Enlaces
 
+Los enlaces son parecidos a las imagenes, la diferencia es que no llevan exclamación delante y se pueden introducir dentro de frases [como esta](https://i1.sndcdn.com/artworks-bY3urlG4g0nzwquw-4rMuzw-t500x500.jpg).
 
 
 
