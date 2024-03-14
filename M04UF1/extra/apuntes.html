@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+<title>Mi fantástica página</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="styles/style_og.css" /> -->	
+		<style>
+body{
+	background-color:#ffffff;
+	color:#000000;
+}
+header{
+	color:#ffffff;
+	background-color:#cccccc;
+	border-bottom:3px solid black;
+}
+header nav ul{
+display:flex;
+list-style:none;
+padding:0;
+margin:0;
+justify-content: space-around;
+}
+header nav li{
+flex-grow:1;
+text-align:center;
+}
+header nav a{
+color:#ffffff;
+text-decoration:none;
+background-color:#777777;
+padding: 8px;
+display:block;
+}
+header nav a:hover{
+color:#ffffff;
+text-decoration:none;
+background-color:#999999;
+padding: 8px;
+display:block;
+}
+a{
+color:#f2a2ff;
+text-decoration:none;
+}
+h1{
+margin:0;
+font-family:'DM Serif Display', sans-serif;
+}
+main{
+border: 20px groove #4602b2;
+}
+main a:hover{
+	font-size: larger;
+	font-style:italic;
+	background-color:#000000;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+footer{
+	color:#ffffff;
+	background-color:#666666;
+	border:3px dotted black;
+	text-align:center;
+	border-top:4px solid #000000
+}
+ul.galeria{
+display:flex;
+justify-content: space-around;
+}
+footer p{
+margin:0;
+padding:32px 0 32px 0;
+}
+		</style>
+	
+	</head>
+
+	<body>
+	<!-- esto es un comentario -->
+	<header>
+		<h1>Cabecera 1</h1>
+		<nav>
+			<ul>
+			<li><a href="index.html">Portada</a></li>
+			<li><a href="cv.html">CV</a></li>
+			<li><a href="about.html">Sobre mi</a></li>
+			<li><a href="contact.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	
+	<p>ola k ase</p>
+	<p>ola <em>k ase</em></p>
+	<p><strong>ola </strong>k ase</p>
+	<p><a href="https://twitch.tv/songorren">esto es un enlace</a> </p>
+
+	<h2>Subcabecera 1</h2>
+		<h3>Subcabecera 1.1</h3>
+		<h3>Subcabecera 1.2</h3>
+			<h4>Subcabecera 1.2.1</h4>
+				<h5>Subcabecera 1.2.1.1</h5>
+					<h6>Subcabecera 1.2.1.1.1</h6>
+					
+	<ul class="galeria">
+		<li>Item</li>
+		<li><a href="https://twitch.tv/songorren">Item</a></li>
+		<li><a href="https://twitch.tv/songorren">Item</a></li>
+		<li><a href="https://twitch.tv/songorren">Item</a></li>
+		<li><a href="https://twitch.tv/songorren">Item</a></li>
+	</ul>
+	<ol>
+		<li>Item</li>
+		<li>Item</li>
+		<li>Item</li>
+		<li>Item</li>
+		<li>Item</li>
+	</ol>
+		<p><a href="https://www.youtube.com/watch?v=bjxv_E-E-FY&pp=ygURbmlrb2thZG8gdnMgb3JsaW4%3D"> <img src="telefono.jpeg" title="Telefono Rojo de baquelita" alt="Telefono rojo"/></a></p>
+	<form>
+				<p><label for="login_form">Login: </label><input type="text" name="Login" id="login_form" placeholder="Escribe tu usuario"/></p>
+				<p><label for="pass_form"/>Password: </label><input type="password" name="Pass" id="pass_form" placeholder="Escribe tu contraseña"/></p>
+				<p><input type="checkbox" name="robot" id="robot_form"/><label for="robot_form"/> ¿Eres un robot? </label></p>
+				<p><label for="color_form"/>Color favorito: </label><input type="color" name="color" id="color_form"/></p>
+				<p><label for="birth_form"/>Birth: </label><input type="date" name="Birth" id="birth_form"/></p>
+				<p><label for="letra_form">Letra canción Vaca Lola: </label> <textarea name="letra" id="letra_form" placeholder="Escribe la cancion de la Vaca Lola"></textarea></p>
+				<p><input type="submit" value="Login" /></p>
+			</form>
+	</main>
+	
+	<footer>
+	<p>Copyright (c) Telefono Rojo S.L. 2024</p>
+	
+	</footer>
+	</body>
+</html>

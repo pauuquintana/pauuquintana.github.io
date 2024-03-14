@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>Mi fantastica pagina</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles/style_og.css" />
+	</head>
+
+	<body>
+		<header>
+		<h1><a href="plantilla.html">Web Paula</a></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Portada</a></li>
+					<li><a href="cv.html">CV</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form class="form">
+			<h2>Registrarse</h2>
+				<p><label for="name_form">Nombre: </label><input type="text" name="Nombre" id="name_form" placeholder="Escribe tu nombre"/></p>
+				<p><label for="mail_register">Email: </label><input type="text" name="Email" id="mail_register" placeholder="pacomola@gmail.com"/></p>
+				<p><label for="login_form">Login: </label><input type="text" name="Login" id="login_form" placeholder="Escribe tu usuario"/></p>
+				<p><label for="birth_form"/>Birth: </label><input type="date" name="Birth" id="birth_form"/></p>
+				<p><label for="pass_register"/>Password: </label><input type="password" name="Pass" id="pass_register" placeholder="Escribe tu contraseña"/></p>
+				<p><label for="pass_confirmation"/>Confirma el password: </label><input type="password" name="Pass_confirmation" id="pass_confirmation" placeholder="Confirma tu contraseña"/></p>
+				<p><input type="checkbox" name="robot" id="robot_register"/><label for="robot_register"/> ¿Eres un robot? </label></p>
+				<p><input type="submit" value="Registrar" id="Sign_in" /></p>
+			</form>
+			<form class="form">
+			<h2>Iniciar sesión</h2>
+				<p><label for="user_login">User: </label><input type="text" name="User" id="user_login" placeholder="pacomola33"/><em id="login_error"> Error</em></p>
+				<p><label for="pass_login"/>Password: </label><input type="password" name="Pass" id="pass_login" placeholder="Escribe tu contraseña"/></p>
+				<p><input type="checkbox" name="robot" id="robot_login"/><label for="robot_login"/> ¿Eres un robot? </label></p>
+				<p><input type="submit" value="Login" id="Log_in"/></p>
+			</form>
+			<script> 
+				function haz_click () {
+					let nombre = document.getElementById("nombre");
+					console.log(nombre.value);
+					console.log("click");
+				}
+				let user_login = document.getElementById("user_login");
+				user_login.addEventListener("click",haz_click);
+				let login_error = document.getElementById("login_error");				
+				let frase = /{["']/;
+				let resultado = frase.test(user_login.value);
+				
+				console.log(resultado);
+				
+				if (resultado) {
+				login_error.innerHTML = "Error, contiene caracteres especiales";
+				}
+				else {
+				login_error.innerHTML = " Ok";
+				}
+				
+				
+				
+				
+			</script>
+		</main>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+

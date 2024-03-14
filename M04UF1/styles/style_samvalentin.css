@@ -1,0 +1,57 @@
+body {
+  color: #FF1493;
+   background-color: #FF69F4;
+}
+header {
+  color: #FFD700; 
+  border-bottom: 5px solid #FF4500;
+  background-color: #FF69B4;
+}
+header h1 {
+  border: 5px dotted #FFD700;
+}
+header nav a {
+  color: #FFD700;
+  text-decoration: none;
+  background-color: #FF1493;
+  padding: 12px;
+  display: block;
+  border: 2px solid #FF4500;
+  border-radius: 15px;
+}
+header nav ul{
+	display:flex;
+	list-style:none;
+	padding:0;
+	margin:0;
+	justify-content: space-around;
+}
+header nav a:hover {
+  color: #FF69B4;
+  background-color: #FFD700;
+}
+main {
+  border: 10px double #FF4500;
+  padding: 20px;
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-san-valentin-corazones-color-rosa_1308-37924.jpg?size=626&ext=jpg&ga=GA1.1.117944100.1709424000&semt=ais');
+}
+main a:hover {
+  font-size: larger;
+  font-style: italic;
+  background-color: #FFD700;
+  color: #FF69B4;
+}
+main.form {
+  border: 10px dashed #FFD700;
+}
+footer {
+  color: #FFD700;
+  background-color: #FF1493;
+  border: 5px solid #FF4500;
+}
+main img {
+  border: 5px solid #FF4500;
+  border-radius: 50%;
+  margin: 10px;
+  display:flex;
+}
