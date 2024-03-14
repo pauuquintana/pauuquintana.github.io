@@ -34,3 +34,26 @@ Para la cursiva se suele utilizar un guión bajo al _principio y al final_ de la
 
 Para utilizar dos énfasis lo haremos con dos asteriscos seguidos de un guión bajo y de la palabra o palabras a destacar
 
+
+### Listas
+
+#### Ordenadas
+
+1. Esto es un elemento
+2. Esto es otro elemento, el segundo
+3. Y un tercero
+
+Las listas ordenadas necesitan un numero y un punto seguido de un espacio y la palabra o palabras a añadir.
+
+
+
+
+
+
+
+
+
+
+
+
+
