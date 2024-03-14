@@ -45,7 +45,13 @@ Para utilizar dos énfasis lo haremos con dos asteriscos seguidos de un guión b
 
 Las listas ordenadas necesitan un numero y un punto seguido de un espacio y la palabra o palabras a añadir.
 
+#### Sin orden
 
+- Uno 
+- Dos
+- Tres
+
+Para las lineas sin orden, un guión y un espacio.
 
 
 
